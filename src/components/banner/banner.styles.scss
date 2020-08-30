@@ -1,0 +1,23 @@
+.banner {
+  width: 100%;
+  .banner-content {
+    display: flex;
+    font-size: 12px;
+
+    .banner-img_container {
+      width: 50%;
+    }
+
+    .banner-text {
+      width: 50%;
+
+      h1 {
+        font-size: 3.5em;
+      }
+
+      h2 {
+        font-size: 3.2em;
+      }
+    }
+  }
+}
