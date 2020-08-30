@@ -1,0 +1,51 @@
+export const sections = [
+  {
+    title: "Lip Gloss",
+    imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+    id: 1,
+    linkUrl: "shop/lip-gloss",
+    linkText: "SHOP NOW",
+  },
+  {
+    title: "Oils",
+    imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+    id: 2,
+    linkUrl: "shop/oils",
+    linkText: "SHOP NOW",
+  },
+  {
+    title: "Body Scrubs",
+    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    id: 3,
+    linkUrl: "shop/body-scrubs",
+    linkText: "COMING SOON",
+  },
+  {
+    title: "Bath Salts",
+    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    id: 4,
+    linkUrl: "shop/bath-salts",
+    linkText: "COMING SOON",
+  },
+  {
+    title: "Eye Lashes",
+    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    id: 5,
+    linkUrl: "shop/eye-lashes",
+    linkText: "COMING SOON",
+  },
+  {
+    title: "Acrylic Nails",
+    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    id: 6,
+    linkUrl: "shop/acrylic-nails",
+    linkText: "COMING SOON",
+  },
+  {
+    title: "Highlighters",
+    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    id: 7,
+    linkUrl: "shop/highlighters",
+    linkText: "COMING SOON",
+  },
+];
