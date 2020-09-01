@@ -5,7 +5,7 @@ import Banner from "../../components/banner/banner.component";
 
 import "./homepage.styles.scss";
 
-const HomePage = () => (
+const HomePage = (props) => (
   <div className="homepage">
     <Banner />
     <Directory />

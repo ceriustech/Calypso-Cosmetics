@@ -4,7 +4,7 @@ import "./oils.styles.scss";
 
 const Oils = () => (
   <div>
-    <h1>Acrylic Nails Page</h1>
+    <h1>Oils Page</h1>
   </div>
 );
 
