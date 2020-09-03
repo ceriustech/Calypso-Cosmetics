@@ -4,7 +4,7 @@ import "./lip-gloss.styles.scss";
 
 const LipGloss = () => (
   <div>
-    <h1>Acrylic Nails Page</h1>
+    <h1>Lip Gloss Page</h1>
   </div>
 );
 

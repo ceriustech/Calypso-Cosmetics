@@ -4,7 +4,7 @@ import "./eye-lashes.styles.scss";
 
 const EyeLashes = () => (
   <div>
-    <h1>Acrylic Nails Page</h1>
+    <h1>Eye Lashes Page</h1>
   </div>
 );
 

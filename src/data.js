@@ -3,7 +3,7 @@ export const sections = [
     title: "Lip Gloss",
     imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
     id: 1,
-    linkUrl: "/shop",
+    linkUrl: "lip-gloss",
     linkText: "SHOP NOW",
   },
   {

@@ -4,7 +4,7 @@ import "./body-scrubs.styles.scss";
 
 const BodyScrubs = () => (
   <div>
-    <h1>Acrylic Nails Page</h1>
+    <h1>Body Scrubs Page</h1>
   </div>
 );
 

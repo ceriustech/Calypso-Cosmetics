@@ -4,7 +4,7 @@ import "./bath-salts.styles.scss";
 
 const BathSalts = () => (
   <div>
-    <h1>Acrylic Nails Page</h1>
+    <h1>Bath Salts Page</h1>
   </div>
 );
 
