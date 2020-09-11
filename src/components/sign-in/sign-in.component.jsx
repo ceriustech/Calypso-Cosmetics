@@ -5,6 +5,8 @@ import CustomButton from "../custom-button/custom-button.component";
 
 import { signInWithGoogle } from "../../firebase/firebase.utils";
 
+import "./sign-in.styles.scss";
+
 class SignUp extends Component {
   state = {
     displayName: "",
@@ -49,10 +51,16 @@ class SignUp extends Component {
             required
           />
 
-          <CustomButton type="submit">Sign In</CustomButton>
-          <CustomButton type="submit" onClick={signInWithGoogle}>
-            Sign In With Google
-          </CustomButton>
+          <div className="buttons">
+            <CustomButton type="submit">Sign In</CustomButton>
+            <CustomButton
+              type="submit"
+              onClick={signInWithGoogle}
+              isGoogleSignIn={true}
+            >
+              Sign In With Google
+            </CustomButton>
+          </div>
         </form>
       </div>
     );
