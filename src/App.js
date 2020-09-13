@@ -19,8 +19,8 @@ class App extends Component {
   userLoginStatus = null;
 
   componentDidMount() {
-    this.userLoginStatus = auth.onAuthStateChanged((user) => {
-      this.setState({ currentUser: user });
+    this.userLoginStatus = auth.onAuthStateChanged(async (user) => {
+      createdUserProfileDocument(user);
       console.log(user);
     });
   }

@@ -14,6 +14,14 @@ const config = {
   measurementId: "G-7GH7T08FHG",
 };
 
+// Takes user auth object and stores it in the firestore database
+export const createdUserProfileDocument = async (userAuth, additionalData) => {
+  if (!userAuth) {
+    return;
+  }
+  console.log(firestore.doc("users/3lk4j3lkjo"));
+};
+
 firebase.initializeApp(config);
 
 export const auth = firebase.auth();
