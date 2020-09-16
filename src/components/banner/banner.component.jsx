@@ -6,7 +6,7 @@ const Banner = () => (
   <div className="banner">
     <div className="banner-content">
       <div className="banner-img_container">
-        <img src="" alt="Welcome! thanks for shopping with us." />
+        <img src="" alt="" />
       </div>
       <div className="banner-text">
         <h1>Welcome!</h1>
