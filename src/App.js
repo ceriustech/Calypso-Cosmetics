@@ -12,9 +12,9 @@ import Header from "./components/header/header.component";
 import "./App.css";
 
 class App extends Component {
-  state = {
-    currentUser: null,
-  };
+  // state = {
+  //   currentUser: null,
+  // };
 
   userLoginStatus = null;
 
