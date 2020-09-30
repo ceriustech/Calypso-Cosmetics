@@ -15,7 +15,7 @@ const MenuItem = ({ title, imageUrl, linkUrl, linkText, history, match }) => (
       className="content"
       onClick={() => history.push(`${match.url}${linkUrl}`)}
     >
-      <h1 className="title">{title.toUpperCase()}</h1>
+      <h1 className="title">{title}</h1>
       <span className="subtitle">{linkText}</span>
     </div>
   </div>

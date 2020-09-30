@@ -1,7 +1,7 @@
 export const SHOP_DATA = [
   {
     id: 1,
-    title: "Hats",
+    title: "Lip Gloss",
     routeName: "hats",
     items: [
       {
@@ -62,7 +62,7 @@ export const SHOP_DATA = [
   },
   {
     id: 2,
-    title: "Sneakers",
+    title: "Oils",
     routeName: "sneakers",
     items: [
       {
@@ -117,7 +117,7 @@ export const SHOP_DATA = [
   },
   {
     id: 3,
-    title: "Jackets",
+    title: "Body Scrubs",
     routeName: "jackets",
     items: [
       {
@@ -154,7 +154,7 @@ export const SHOP_DATA = [
   },
   {
     id: 4,
-    title: "Womens",
+    title: "Bath Salts",
     routeName: "womens",
     items: [
       {
@@ -203,7 +203,93 @@ export const SHOP_DATA = [
   },
   {
     id: 5,
-    title: "Mens",
+    title: "Eyelashes",
+    routeName: "mens",
+    items: [
+      {
+        id: 1,
+        name: "Camo Down Vest",
+        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        price: "25.00",
+      },
+      {
+        id: 2,
+        name: "Floral T-shirt",
+        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        price: "25.00",
+      },
+      {
+        id: 3,
+        name: "Black & White Longsleeve",
+        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        price: "25.00",
+      },
+      {
+        id: 4,
+        name: "Pink T-shirt",
+        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        price: "25.00",
+      },
+      {
+        id: 5,
+        name: "Jean Long Sleeve",
+        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        price: "25.00",
+      },
+      {
+        id: 6,
+        name: "Burgundy T-shirt",
+        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        price: "25.00",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Acrylic Nails",
+    routeName: "mens",
+    items: [
+      {
+        id: 1,
+        name: "Camo Down Vest",
+        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        price: "25.00",
+      },
+      {
+        id: 2,
+        name: "Floral T-shirt",
+        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        price: "25.00",
+      },
+      {
+        id: 3,
+        name: "Black & White Longsleeve",
+        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        price: "25.00",
+      },
+      {
+        id: 4,
+        name: "Pink T-shirt",
+        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        price: "25.00",
+      },
+      {
+        id: 5,
+        name: "Jean Long Sleeve",
+        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        price: "25.00",
+      },
+      {
+        id: 6,
+        name: "Burgundy T-shirt",
+        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        price: "25.00",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Highlighters",
     routeName: "mens",
     items: [
       {
